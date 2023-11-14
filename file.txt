@@ -1,1 +1,24 @@
 caiosjdaiosdnaodnaodnsa
+
+
+git config --global user.email "placenza.samuele.05@itisdalmine.edu.it" //accesso a git
+git config --global user.name "samueleplacenza" //accesso a git
+mkdir nomeCartella //creo una cartella
+nano nomeFile.Tipologia // creo un file
+git init //crea una repository
+git commit //creare un'istantanea delle modifiche effettuate nella cronologia di un progetto Git
+git add nomeFile.Tipologia //aggiunge il file alla cartella git
+git commit //modificare file per inserire i per uscire esc poi :wq
+nano nomeFile2.Tipologia
+git add nomeFile2.Tipologia
+git commit
+git log //stampa i commit
+git branch nomeBranch
+git checkout nomeBranch // entra nel branch
+git add file.txt
+git commit
+git checkout master
+git merge + nome branch
+git remote add origin + link repository
+git push origin master
+
